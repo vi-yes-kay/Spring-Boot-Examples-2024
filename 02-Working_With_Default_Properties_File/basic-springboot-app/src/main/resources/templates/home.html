@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Basic Spring Boot APP</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <body>
+        
+        <h1 th:text="${greetingsForTheDay}"></h1>
+        <p>Welcome, <span th:text="${userName}">Default User</span> to your course <span th:text="${userCourse}"> Default Course</span>.</p>
+
+        <br/>
+        <p>Following message is passed from Controller but is read from application.properties file.</p>
+    </body>
+</html>
