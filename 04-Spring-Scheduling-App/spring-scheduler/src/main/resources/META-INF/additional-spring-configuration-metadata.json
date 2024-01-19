@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "scheduler.rate",
+    "type": "java.lang.String",
+    "description": "A description for 'scheduler.rate'"
+  },
+  {
+    "name": "scheduler.initialDelay",
+    "type": "java.lang.String",
+    "description": "A description for 'scheduler.initialDelay'"
+  }
+]}
